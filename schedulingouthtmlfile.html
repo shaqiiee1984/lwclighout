@@ -1,15 +1,27 @@
+
 <html>
-    <script src="https://e4uu-developer-edition.eu44.force.com/mylightningoutsch/lightning/lightning.out.js"></script>
+
+<style>
+
+  a {
+    color: orange;
+  }
+
+</style>
+
+<script src="https://e4uu-developer-edition.eu44.force.com/lightning/lightning.out.js"></script>
 
 <div data-lightning-out="true"></div>
 
   <script>
 
-    const appName = 'c:myLightOutApp';
+    const appName = 'c:OptOutFormWrapper';
     const componentName = 'c:optoutForm';
     const lightningEndpoint = 'https://e4uu-developer-edition.eu44.force.com';
     const targetElement = document.querySelector("[data-lightning-out]");
-    const componentAttributes = {};
+    const componentAttributes = {
+
+    };
 
     $Lightning.use(
             appName,
